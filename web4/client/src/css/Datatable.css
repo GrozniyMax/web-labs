@@ -1,0 +1,11 @@
+.p-datatable-table, .p-datatable-thead, .p-align-center, .p-datatable-tbody{
+    background-color: #242424 ;
+}
+.p-datatable .p-datatable-tbody > tr {
+    background: #242424;
+}
+
+.p-datatable .p-datatable-tbody > tr > td {
+    border-color: #242424;
+}
+

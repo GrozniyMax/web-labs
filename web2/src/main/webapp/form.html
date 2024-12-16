@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lab2</title>
+    <style>
+        form {
+            display: flex;
+            flex-direction: column; /* Расположить элементы вертикально */
+            align-items: center; /* Центрировать элементы по горизонтали */
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        div {
+            display: table;
+            flex-direction: row;
+        }
+
+        select {
+            margin: 10px 0; /* Добавить отступы между элементами */
+            width: 80%; /* При необходимости можно задать фиксированную ширину */
+        }
+
+        label {
+            margin-top: 5px;
+        }
+
+        label[class="x-input"] {
+            display: inline-block;
+            width: 100px; /* При необходимости можно настроить ширину */
+        }
+
+        input[type="checkbox"] {
+            margin-right: 10px; /* Отступ между чекбоксом и текстом */
+            vertical-align: middle;
+            margin-bottom: 5px /* Центрировать чекбокс по вертикали с текстом */
+        }
+
+        button {
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+<body>
+<header>
+    Тараненко Максим Сергеевич <br>
+    Р3211<br>
+    409664
+</header>
+
+<form>
+    <h1>Форма для ввода данных</h1>
+    <div>
+        <input class="x-input" type="checkbox" value="-4"><label class="x-input">X=-4</label><br>
+        <input class="x-input" type="checkbox" value="-3"><label class="x-input">X=-3</label><br>
+        <input class="x-input" type="checkbox" value="-2"><label class="x-input">X=-2</label><br>
+        <input class="x-input" type="checkbox" value="-1"><label class="x-input">X=-1</label><br>
+        <input class="x-input" type="checkbox" value="0"><label class="x-input">X=+0</label><br>
+        <input class="x-input" type="checkbox" value="1"><label class="x-input">X=+1</label><br>
+        <input class="x-input" type="checkbox" value="2"><label class="x-input">X=+2</label><br>
+        <input class="x-input" type="checkbox" value="3"><label class="x-input">X=+3</label><br>
+        <input class="x-input" type="checkbox" value="4"><label class="x-input">X=+4</label><br>
+    </div>
+
+    <label>Значение</label><br>
+    <input id="y-input" type="text" placeholder="-3...5"><br>
+
+    <label>Выберите значение R</label><br>
+    <select id="r-input">
+        <option value="1">R=1</option>
+        <option value="1.5">R=1.5</option>
+        <option value="2">R=2</option>
+        <option value="2.5">R=2.5</option>
+        <option value="3">R=3</option>
+    </select><br>
+    <input type="button" value="Отправить">
+</form>
+<script src="validation.js"></script>
+</body>
+</html>

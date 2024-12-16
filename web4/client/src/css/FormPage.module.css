@@ -1,0 +1,40 @@
+.component {
+    margin-bottom: 100%; /* Значительный отступ */
+}
+
+.first {
+    margin-bottom: 100%; /* Значительный отступ */
+    margin-top: 100%
+}
+
+.container {
+    width: 80%;
+    height: 80%;
+
+}
+
+.p-dropdown {
+    width: 100%; /* Устанавливаем ширину с */
+}
+
+/* Уменьшение размера текста в выпадающем списке */
+.p-dropdown-label {
+    font-size: 14px; /* Размер текста */
+    white-space: nowrap; /* Отключаем перенос */
+    overflow: visible; /* Скрываем лишний текст */
+    text-overflow: ellipsis; /* Добавляем многоточие */
+}
+.p-dropdown-panel {
+    background-color: #333; /* Тёмный фон */
+    color: #fff; /* Белый текст для контраста */
+}
+
+.p-dropdown-item {
+    background-color: #333; /* Фон для каждого элемента */
+    color: #fff; /* Цвет текста */
+}
+
+.p-dropdown-item:hover {
+    background-color: #444; /* Более светлый фон при наведении */
+    color: #fff; /* Цвет текста при наведении */
+}
