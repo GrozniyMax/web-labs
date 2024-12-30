@@ -13,6 +13,8 @@
 #### Пример графика
 ![image](https://github.com/user-attachments/assets/f6498522-6f09-4582-8935-f76b4282047d)
 
+#### [Отчеты](./reports)
+
 
 ## [Лабораторная работа №1](./web1)
 * Веб-сервер - Apache httpd
